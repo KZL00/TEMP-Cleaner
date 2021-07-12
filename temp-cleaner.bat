@@ -9,6 +9,7 @@ echo Loading configuration, please wait ...
 set VER=1.0.0
 set dir=%temp%
 set github-link=https://github.com/KZL00/TEMP-Cleaner
+set github-bug-link=https://github.com/KZL00/TEMP-Cleaner/issues/new/choose
 set license=GNU GENERAL PUBLIC LICENSE (version 3)
 timeout 1 /nul
 goto menu
@@ -18,19 +19,21 @@ cls
 title TEMP Cleaner %ver% by KZL (%github-link%)
 echo TEMP Cleaner %ver% by KZL (%github-link%)
 echo.
-echo Press a button from 1 to 4 - each of these buttons has its own function as described below:
+echo Press a button from 1 to 5 - each of these buttons has its own function as described below:
 echo.
 echo 1 - Delete the TMP files
 echo.
 echo 2 - Program and license information
 echo 3 - Page on GitHub
+echo 4 - Report Bug
 echo.
-echo 4 - End sessions (will close the program)
+echo 5 - End sessions (will close the program)
 choice /c 1234 /n
 if %errorlevel%==1 goto clear-init
 if %errorlevel%==2 goto info
 if %errorlevel%==3 goto github
-if %errorlevel%==4 exit
+if %errorlevel%==4 goto github-bug
+if %errorlevel%==5 exit
 
 :clear-init
 cls
@@ -77,4 +80,9 @@ goto menu
 :github
 cls
 start %github-link%
+goto menu
+
+:github-bug
+cls
+start %github-bug-link%
 goto menu
