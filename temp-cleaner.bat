@@ -58,6 +58,12 @@ cls
 cd %dir%
 del *
 echo Reclaiming disk space, please wait (this process may take some time) ...
+goto clear-complete
+
+:clear-complete
+cls
+echo Ready! Your computer has been cleared of unnecessary temporary data!
+pause
 goto menu
 
 :good-to-go
