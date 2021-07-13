@@ -25,8 +25,8 @@ If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
 - Windows Version [e.g. 8]
-- Windows Build [e.g. 19042]
-- TEMP Cleaner Version [e.g. 1.0.0]
+- Windows Build (optional, but can be helpful) [e.g. 19042]
+- TEMP Cleaner Version [e.g. 1.1.3]
 
 **Additional context**
 Add any other context about the problem here.
