@@ -13,7 +13,7 @@ goto int
 :int
 echo Loading configuration, please wait ...
 echo [%date% %time%] Loading configuration... >> TEMP-Cleaner-Log.txt
-set VER=1.0.2 Pre-release
+set VER=1.0.2
 echo [%date% %time%] Value Loaded: VER = %ver% >> TEMP-Cleaner-Log.txt
 set debug-menu-ver=1.0.0
 echo [%date% %time%] Value Loaded: debug-menu-ver = %debug-menu-ver% >> TEMP-Cleaner-Log.txt
