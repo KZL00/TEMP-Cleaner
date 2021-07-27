@@ -8,3 +8,5 @@ Windows 10 | any | 21H1 (19043.1110) | 1.0.0
 Windows 8.1 | -- | -- | --
 Windows 8 | -- | -- | --
 Windows 7 | any with SP1 | 7601 | 1.0.2
+
+the above table does not exclude the operation of the software on older versions than shown above, but merely indicates whether the version has been tested and whether everything is working on it in order.
