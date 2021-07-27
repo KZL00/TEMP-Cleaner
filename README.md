@@ -13,5 +13,4 @@ Note |
 ------------ |
 Each device that you want to run the above software should be 64bit. |
 Windows XP and earlier are NOT SUPPORTED. |
-
-the above table does not exclude the operation of the software on older versions than shown above, but merely indicates whether the version has been tested and whether everything is working on it in order.
+The last supported version for Windows Vista is "1.0.2B1". |
