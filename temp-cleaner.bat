@@ -207,7 +207,7 @@ goto debug-menu
 :tmp-folder
 cls
 start %DIR%
-goto debug-menu
+goto menu
 
 :goto
 cls
